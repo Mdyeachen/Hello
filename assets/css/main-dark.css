@@ -1,0 +1,59 @@
+:root {
+    --border-color: #262626;
+}
+
+body.dark-mode,
+body.dark-mode .testmonial-item ,
+body.dark-mode .ee_area,
+body.dark-mode .service_area,
+body.dark-mode .modal-body,
+body.dark-mode .singleblog-model .blog-item {
+    background: #111111;
+}
+
+body.dark-mode,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: var(--off-white);
+}
+
+body.dark-mode .info-box-items,
+body.dark-mode .info-content li {
+    border-color: var(--border-color);
+}
+
+body.dark-mode span.date {
+    background: var(--secondary-color);
+}
+
+body.dark-mode form.contact-form input,
+body.dark-mode form.contact-form textarea {
+    background: #2B2A2A;
+    border: none;
+}
+
+body.dark-mode ul.social-icon a,
+body.dark-mode .click_function,
+body.dark-mode .owl-dots .add::before,
+body.dark-mode .click_function.icon_show {
+    background: var(--border-color);
+    color: var(--off-white);
+}
+
+body.dark-mode .owl-dots .add:hover:before {
+    background: var(--theme-color);
+    ;
+    color: var(--primary-color);
+}
+
+body.dark-mode .blog-content-part {
+    background: var(--border-color);
+}
+
+.body.dark-mode .testimonial-items .owl-dots .owl-dot span {
+    background: var(--primary-color);
+}
